@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "size": 1,
+    "hasPower": true,
+    "hasItems": true,
+    "craftEffect": {
+        "type": "ParticleEffect",
+        "lifetime": 35,
+        "length": 8,
+        "colorTo": "7382f0"
+    },
+    "flameColor": "b4b7e3",
+    "consumes": {
+        "power": 1.25,
+        "items": {
+            "items": [
+                "lead-bullet/5",
+                "copper/1"
+            ]
+        }
+    },
+    "craftTime": 10,
+    "outputItem": "thorium-bullet/5",
+    "category": "crafting",
+    "research": "duo",
+    "requirements": [
+        "copper/100",
+        "lead/800",
+        "scrap/200"
+    ]
+}

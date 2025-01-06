@@ -1,0 +1,54 @@
+{
+    "type": "ItemTurret",
+    "health": 100,
+    "size": 5,
+    "reload": 360,
+    "range": 1000,
+    "recoil": 99,
+    "shake": 0,
+    "ammoUseEffect": "titanExplosion",
+    "rotateSpeed": 3,
+    "shootSound": "bang",
+        "drawer": {
+    "type": "d-17328",
+    "basePrefix": "d-17328",
+    "drawturret": "d-17328"
+    },
+	"ammoTypes": {
+          "thorium-bullet": {
+            "status": "blasted",
+	        "statusDuration": "10",
+            "reflectable": false,
+            "speed": 10,
+            "width": 2,
+            "height": 3,
+            "lifetime": 100,
+            "damage": 16000,
+            "splashDamage": 650,
+            "splashDamageRadius": 15000,
+            "knockback": 56,
+            "hitSize": 35,
+            "frontColor": "d7ddf2",
+            "backColor": "bbd1d0",
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "blastExplosion"
+    }
+	},
+    "requirements": [
+        "copper/900",
+        "lead/900",
+        "phase-fabric/15",
+        "thorium/30",
+        "scrap/200",
+        "silicon/490",
+        "pyratite/30"
+    ],
+    "category": "turret",
+    "research": {
+        "parent": "duo",
+        "requirements": [
+            "copper/70"
+        ]
+    }
+
+}

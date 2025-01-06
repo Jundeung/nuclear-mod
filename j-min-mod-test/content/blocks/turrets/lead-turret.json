@@ -1,0 +1,69 @@
+{
+    "type": "ItemTurret",
+    "health": 1000,
+    "size": 2,
+    "reload": 2,
+    "range": 400,
+    "recoil": 0.4,
+    "shake": 3,
+    "ammoUseEffect": "casing3",
+    "rotateSpeed": 0.4,
+    "shootSound": "bang",
+        "drawer": {
+    "type": "d-17328",
+    "basePrefix": "d-17328",
+    "drawturret": "d-17328"
+    },
+	"ammoTypes": {
+        "lead-bullet": {
+            "status": "blasted",
+            "statusDuration": "5",
+            "speed": 5,
+            "width": 5,
+            "height": 5,
+            "lifetime": 50,
+            "damage": 23,
+            "splashDamage": 5,
+            "splashDamageRadius": 3,
+            "knockback": 3,
+            "hitSize": 2,
+            "frontColor": "E66F57FF",
+            "backColor": "C85C51FF",
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "blastExplosion"
+    },
+        "connect": {
+            "status": "blasted",
+            "statusDuration": "10",
+            "reflectable": false,
+            "speed": 5,
+            "width": 5,
+            "height": 5,
+            "lifetime": 50,
+            "damage": 30,
+            "splashDamage": 5,
+            "splashDamageRadius": 3,
+            "knockback": 3,
+            "hitSize": 3,
+            "frontColor": "E66F57FF",
+            "backColor": "C85C51FF",
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "blastExplosion"
+    }
+	},
+    "requirements": [
+        "scrap/80",
+        "copper/100",
+        "coal/10"
+    ],
+    "category": "turret",
+    "research": {
+        "parent": "duo",
+        "requirements": [
+            "copper/190",
+            "coal/20",
+            "scrap/100"
+        ]
+    }
+
+}

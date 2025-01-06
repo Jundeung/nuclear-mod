@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftEffect": {
+        "type": "ParticleEffect",
+        "lifetime": 35,
+        "length": 8,
+        "colorTo": "7382f0"
+    },
+    "flameColor": "b4b7e3",
+    "consumes": {
+        "power": 1.25,
+        "items": {
+            "items": [
+                "copper/10"
+            ]
+        }
+    },
+    "craftTime": 40,
+    "outputItem": "big-one-bullet/1",
+    "category": "crafting",
+    "research": "duo",
+    "requirements": [
+        "copper/100",
+        "lead/800",
+        "scrap/200"
+    ]
+}

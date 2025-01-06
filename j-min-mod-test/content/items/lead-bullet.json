@@ -1,0 +1,14 @@
+{
+    "cost": 1,
+    "hardness": 1,
+    "explosiveness": 0,
+    "charge": 1,
+    "color": "5DCBF3FF",
+    "research": {
+    "parent": "lead-bullet",
+    "requirements": [
+    "lead/1",
+    "copper/1"
+  ]
+  }
+}

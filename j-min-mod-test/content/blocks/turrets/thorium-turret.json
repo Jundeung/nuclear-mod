@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "health": 800,
+    "size": 2,
+    "reload": 5,
+    "range": 200,
+    "recoil": 1,
+    "shake": 0.7,
+    "ammoUseEffect": "casing3",
+    "rotateSpeed": 7,
+    "shootSound": "bang",
+        "drawer": {
+    "type": "block-2",
+    "basePrefix": "block-2",
+    "drawturret": "block-2"
+    },
+	"ammoTypes": {
+          "thorium-bullet": {
+            "status": "blasted",
+	        "statusDuration": "10",
+            "reflectable": false,
+            "speed": 10,
+            "width": 2,
+            "height": 3,
+            "lifetime": 20,
+            "damage": 70,
+            "splashDamage": 15,
+            "splashDamageRadius": 3,
+            "knockback": 0.5,
+            "hitSize": 4,
+            "frontColor": "E66F57FF",
+            "backColor": "C85C51FF",
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "blastExplosion"
+    }
+	},
+    "requirements": [
+        "scrap/50",
+        "copper/70"
+    ],
+    "category": "turret",
+    "research": {
+        "parent": "duo",
+        "requirements": [
+            "copper/70"
+        ]
+    }
+
+}

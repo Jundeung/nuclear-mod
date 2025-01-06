@@ -1,0 +1,49 @@
+{
+    "type": "ItemTurret",
+    "health": 800,
+    "size": 2,
+    "reload": 0.4,
+    "range": 200,
+    "recoil": 1,
+    "shake": 3,
+    "ammoUseEffect": "casing3",
+    "rotateSpeed": 13,
+    "shootSound": "bang",
+        "drawer": {
+    "type": "d-17328",
+    "basePrefix": "d-17328",
+    "drawturret": "d-17328"
+    },
+	"ammoTypes": {
+          "fast-shoot-bullet": {
+            "status": "blasted",
+	        "statusDuration": "10",
+            "reflectable": false,
+            "speed": 30,
+            "width": 2,
+            "height": 3,
+            "lifetime": 70,
+            "damage": 23,
+            "splashDamage": 15,
+            "splashDamageRadius": 3,
+            "knockback": 0.5,
+            "hitSize": 3,
+            "frontColor": "E66F57FF",
+            "backColor": "C85C51FF",
+            "shootEffect": "shootPyraFlame",
+            "hitEffect": "blastExplosion"
+    }
+	},
+    "requirements": [
+        "scrap/50",
+        "copper/70"
+    ],
+    "category": "turret",
+    "research": {
+        "parent": "duo",
+        "requirements": [
+            "copper/70"
+        ]
+    }
+
+}
